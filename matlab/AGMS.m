@@ -13,6 +13,6 @@ function [ solution ] = AGMS( imgFile, typeOfTree, debug )
     
     img = im2int16(rgb2gray(imread(imgFile)));
     
-    solution = XuAttributeAG(img, typeOfTree, debug);
+    solution = FunctionalAttribute(img, typeOfTree, debug);
 
 end

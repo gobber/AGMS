@@ -76,7 +76,7 @@ solution = AGMS('../images/mumford-image-test.png',...
 % Valor do atributo para um dado nó            
 disp("(MinTree) Energia do nó 10 = "+ solution.fitness(10));
 
-% Removendo os nós entre o intervalo 6000 e numnode()-1          
+% Removendo os nós entre o intervalo 5000 e numnode()-1          
 for i=5000:solution.numnode()-1
     solution.remove(i);
 end
